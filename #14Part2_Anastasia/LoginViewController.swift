@@ -35,7 +35,7 @@ class LoginViewController: UIViewController {
         name.layer.cornerRadius = 10
     }
     
-    func warning (title: String) {
+    private func warning (title: String) {
         let alertVc = UIAlertController(
             title: title,
             message: nil,
